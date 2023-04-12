@@ -1,0 +1,37 @@
+<div class="mt-4">
+<div class="container">
+  <div class="row">
+    <div class="col col-lg-4">
+      <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{{course.image}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{course.name}}</h5>
+    <p class="card-text">{{course.description}}</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Trình độ: {{course.level}}</li>
+    <li class="list-group-item">999.99 $</li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class="btn btn-success card-link">Thanh Toán</a>
+    <a href="/" class="btn btn-secondary card-link">Hủy bỏ</a>
+  </div>
+</div>
+    </div>
+    <div class="col col-lg-8">
+          <h2>Khóa học {{course.name}}</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/{{course.videoID}}"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <p>{{course.description}}</p>
+    </div>
+  </div>
+</div>
+
+</div>
